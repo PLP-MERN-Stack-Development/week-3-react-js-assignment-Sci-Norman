@@ -1,71 +1,109 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19945544&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 📝 DevTasks – React Task Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+### TASKMASTERS
 
-## Assignment Overview
+![Task section Screenshot](./screenshots/taskSection.png)
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+![Task section Screenshot](./screenshots/postSection.png)
 
-## Getting Started
+![Task section Screenshot](./screenshots/aboutSection.png)
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
 
-## Files Included
+A responsive and interactive task manager app built using **React.js**, **Vite**, **Tailwind CSS**, and **React Router**. This project demonstrates mastery of front-end development concepts such as **component architecture**, **state management with hooks**, **custom hooks**, **API integration**, and **dark/light theming**.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+├── components/     # Reusable UI components (Button, Card, Navbar, etc.)
+├── pages/          # App pages (Home, Tasks, API Page)
+├── utils/          # Custom hooks like useLocalStorage
+└── App.jsx         # App entry with routing
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## ✅ Features
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+- 🔄 Add, complete, delete, and filter tasks
+- 🎨 Theme toggle (light/dark mode)
+- 🧱 Reusable components using props
+- 📦 Custom `useLocalStorage` hook for data persistence
+- 🌐 API integration with loading/error states
+- 📱 Fully responsive for mobile, tablet, and desktop
+- ⚙️ Smooth animations and transitions with Tailwind
 
-## Resources
+---
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## 🔧 Technologies Used
+
+- [React.js](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js v18+ installed
+- npm or pnpm
+
+### Installation
+
+```bash
+# Clone your GitHub Classroom repository
+git clone https://github.com/your-username/devtasks.git
+cd devtasks
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+## 🧪 Screenshots
+
+### 🔆 Light Mode
+
+![Light Mode Screenshot](./screenshots/dashboardTask.png)
+
+
+---
+
+## 📌 Tasks Completed
+
+- [x] Project Setup with Vite + Tailwind CSS
+- [x] Component architecture (Button, Card, Navbar, Footer, Layout)
+- [x] TaskManager component with all CRUD & filter functionality
+- [x] React hooks: useState, useEffect, useContext, custom hook
+- [x] Fetched posts from JSONPlaceholder API
+- [x] Displayed data with loading, error, search & pagination
+- [x] Deployed to Vercel/Netlify with README + screenshots
+
+---
+
+
+
+## 👨‍🏫 Submission Guidelines
+
+- ✅ Committed and pushed code regularly
+- ✅ Proper file and folder structure
+- ✅ Included all screenshots
+- ✅ Added live URL in the README
+- ✅ Met all autograder requirements
+
+---
+
+## ©️ License
+
+This project is part of a coursework assignment and follows academic integrity guidelines.
